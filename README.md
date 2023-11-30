@@ -1,6 +1,7 @@
-# Numeric Converter Calculator Web Application
+# Numeric Converter Calculator Web Application with Design Patterns 
 
 This is a web application that converts decimal numbers to binary, octal and hexadecimal numbers.
+It was made with design patterns which are template method, proxy control-access, strategy.
 
 ## Features
 
@@ -31,6 +32,16 @@ The project is structured following the MVC pattern:
     ```bash
     php -S localhost:8080 -t public
     ```
+
+## Screenshots
+
+*Dashboard*
+
+<img loading="lazy" width="90%" src="./screenshots/s1.png" alt="Dashboard" />
+
+*Dynamic Diagram*
+
+<img loading="lazy" width="90%" src="./screenshots/s2.png" alt="Diagram" />
 
 ## Contribution
 
