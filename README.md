@@ -1,7 +1,8 @@
 # Numeric Converter Calculator Web Application with Design Patterns 
 
 This is a web application that converts decimal numbers to binary, octal and hexadecimal numbers.
-It was made with design patterns which are template method, proxy control-access, strategy.
+
+It was made with design patterns which are template method, proxy control-access and strategy.
 
 ## Features
 
