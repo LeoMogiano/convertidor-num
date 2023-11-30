@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  background-color: #3498db; /* Azul */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-container {
+  background-color: #2980b9; /* Azul más oscuro */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #3498db; /* Azul */
+  background-color: #2980b9; /* Azul más oscuro */
+  color: #fff;
+}
+
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #3498db; /* Azul */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #3498db; /* Azul */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  appearance: none;
+}
+
+select {
+  position: relative;
+  width: 100%;
+  padding: 10px 20px 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #3498db; /* Azul */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  appearance: none;
+}
+
+select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+select option:hover {
+  background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #2980b9; /* Azul más oscuro */
+  color: #fff;
+  border: 1px solid #3498db; /* Azul */
+}
+
+footer p {
+  font-size: 14px;
+}
