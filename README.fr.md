@@ -4,7 +4,7 @@ Il s'agit d'une application web qui convertit les nombres décimaux en nombres b
 
 Elle a été réalisée avec des modèles de conception tels que la méthode de modèle, le contrôle d'accès par proxy et la stratégie.
 
-[Anglais](./README.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [日本語](./README.jp.md)
+[English](./README.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [日本語](./README.jp.md)
 
 ## Fonctionnalités
 
