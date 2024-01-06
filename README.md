@@ -4,6 +4,8 @@ This is a web application that converts decimal numbers to binary, octal and hex
 
 It was made with design patterns which are template method, proxy control-access and strategy.
 
+[English](./README.md) | [Español](./README.es.md) | [Français](./README.fr.md) | [日本語](./README.jp.md)
+
 ## Features
 
 - **Convert decimal numbers to binary, octal and hexadecimal numbers.**
@@ -38,11 +40,15 @@ The project is structured following the MVC pattern:
 
 *Dashboard*
 
-<img loading="lazy" width="90%" src="./screenshots/s1.png" alt="Dashboard" />
+<p align="center">
+  <img loading="lazy" width="90%" src="./screenshots/s1.png" alt="Dashboard" />
+</p>
 
 *Dynamic Diagram*
 
-<img loading="lazy" width="90%" src="./screenshots/s2.png" alt="Diagram" />
+<p align="center">
+    <img loading="lazy" width="90%" src="./screenshots/s2.png" alt="Diagram" />
+</p>
 
 ## Contribution
 
